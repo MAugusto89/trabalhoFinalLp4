@@ -1,0 +1,64 @@
+.container {
+  width: 95%;
+  background-color: #FFFFFF; /* Creme */
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.top h2 {
+  color: #2e4347; /* Texto escuro */
+  font-size: 2rem;
+}
+
+.top button {
+  background-color: #ffb884; /* Laranja claro */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  color: #2e4347; /* Texto escuro */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 2rem;
+}
+
+.top button:hover {
+  background-color: #f5df98; /* Amarelo claro */
+}
+
+.header {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-around;
+}
+
+.leiOpen {
+  width: 70%;
+}
+.leiClose{
+  width: 29%;
+}
+
+.leiOpen h2, .leiClose h2 {
+  font-size: 1.5rem;
+  color: #2e4347;
+  border-bottom: 2px solid #ffb884;
+  padding-bottom: 5px;
+  margin: 10px;
+}
+
+.leiOpenList, .leilCloseList {
+  background-color: #c0d1c2; /* Verde claro */
+  padding: 15px;
+  border-radius: 8px;
+  min-height: 200px;
+}

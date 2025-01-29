@@ -1,0 +1,46 @@
+.card {
+  background-color: #f5df98; /* Amarelo claro */
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desc {
+  flex-grow: 1;
+}
+
+.lote {
+  font-weight: bold;
+  color: #2e4347;
+  font-size: 1.1rem;
+}
+
+.description, .time {
+  display: block;
+  color: #2e4347;
+  font-size: 0.9rem;
+}
+
+.buttonCard {
+  text-align: right;
+}
+
+.buttonCard button {
+  background-color: #fff8d4; /* Creme */
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  color: #2e4347;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 1.2rem;
+}
+
+.buttonCard button:hover {
+  background-color: #ffb884; /* Laranja claro */
+}

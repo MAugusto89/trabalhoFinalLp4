@@ -1,0 +1,88 @@
+/*
+#ffb884 
+#f5df98 
+#fff8d4 
+#c0d1c2 
+#2e4347
+*/
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2e4347;
+}
+
+.auctionArea {
+  padding: 50px;
+  width: 50vw;
+  background-color: #ffffff;
+}
+
+.auctionForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.auctionForm {
+  padding: 20x;
+  width: 100%;
+}
+
+.auctionForm input {
+  height: 35px;
+  border: 2px solid #ccc;
+  font-family: "regular";
+  font-size: 1.5rem;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.auctionForm input[type="submit"] {
+  background-color: #555;
+  color: white;
+  font-family: "bold";
+  padding: 10px 0;
+  width: 250px;
+  border: none;
+  font-size: 1.25rem;
+  height: auto;
+  cursor: pointer;
+  text-align: center;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+<<<<<<< HEAD
+}
+.buttonGoogle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  /* Fundo transparente */
+  border: none;
+  /* Remover borda padrão */
+  padding: 0;
+  /* Remover padding */
+  cursor: pointer;
+  /* Indicar que é clicável */
+  display: inline-block;
+  /* Para garantir que o botão se comporte como um bloco de nível inline */
+  transition: transform 0.3s ease;
+  /* Adicionar uma transição suave */
+}
+
+.buttonGoogle img {
+  width: 50px;
+  /* Definir o tamanho da imagem */
+  height: 50px;
+  /* Definir o tamanho da imagem */
+  object-fit: contain;
+  /* Garantir que a imagem se ajuste ao tamanho sem distorcer */
+}
+=======
+}
+>>>>>>> 6107c3a (Second commit)
